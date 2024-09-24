@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h2 class="mx-5">Activity Data Table</h2>
+    <table class="mx-5 mt-3 w-2/4 py-9">
+      <thead class="bg-grey-50 border-b-2 border-ge">
+        <tr class="bg-red-200 border-2 border-black text-left">
+          <th>Key</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td class="border-r-4 border-indigo-500 ... bg-lime-200">Activity</td>
+          <td id="active"></td>
+        </tr>
+        <tr>
+          <td class="border-r-4 border-indigo-500 ... bg-green-100">Type</td>
+          <td id="types">
+            <tr>
+              <td class="border-r-4 border-indigo-500 ... bg-emerald-50">
+                Participants
+              </td>
+              <td id="participant"></td>
+            </tr>
+            <tr>
+              <td class="border-r-4 border-indigo-500 ... bg-teal-400">
+                Price
+              </td>
+              <td id="prices"></td>
+            </tr>
+            <tr>
+              <td class="border-r-4 border-indigo-500 ... bg-fuchsia-500">
+                link
+              </td>
+              <td><a target="_blank" id="linkes"></a></td>
+            </tr>
+            <tr>
+              <td class="border-r-4 border-indigo-500 ... bg-blue-400">key</td>
+              <td id="keys"></td>
+            </tr>
+            <tr>
+              <td class="border-r-4 border-indigo-500 ... bg-purple-500">
+                Accessibility
+              </td>
+              <td id="access"></td>
+            </tr>
+          </td>
+        </tr>
+      </thead>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
